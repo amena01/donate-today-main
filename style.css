@@ -1,0 +1,48 @@
+body {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+
+}
+
+.sec-01 {
+   color: white;
+   background-image: url(/images/donation7.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+}
+
+.header {
+   font-size: 30px;
+}
+
+.paragraph {
+   margin: 60px;
+}
+
+.link-button {
+   text-decoration: none;
+   background-color: rgb(211, 86, 86);
+   padding: 10px 12px;
+   margin-bottom: 15px;
+   border-radius: 7px;
+   color: white;
+   text-align: center;
+   font-size: medium;
+}
+
+.flex {
+   display: inline-block;
+   padding:10px 10px;
+   margin: 40px 03px;
+   background-color:rgb(230, 227, 227);
+
+}
+.flex-clr{
+   color: brown;
+   border: 4px;
+   border-color: brown;
+}
+.flexible-container{
+   width: 100%;
+}
