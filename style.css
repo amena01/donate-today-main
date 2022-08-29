@@ -8,18 +8,23 @@ body {
    color: white;
    background-image: url(/images/donation7.jpg);
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   background-size: 100%;
    text-align: center;
 }
-.sec-02{
- text-align: center;
+
+.sec-02 {
+   text-align: center;
+   margin: 50px 100px 10px 100px;
 }
+
+.sec-03 {}
+
 .header {
    font-size: 30px;
 }
 
 .paragraph {
-   margin: 60px;
+   margin: 30px;
 }
 
 .link-button {
@@ -36,31 +41,53 @@ body {
 
 .flex {
    display: inline-block;
-   padding:10px 10px;
+   padding: 10px 10px;
    margin: 40px 03px;
-   background-color:rgb(230, 227, 227);
+   background-color: rgb(230, 227, 227);
 
 }
-.flex-clr{
-   color:brown;
+
+.flex-clr {
+   color: brown;
    border: 4px solid brown;
    background-color: rgba(231, 95, 95, 0.35);
 }
-.flexible-container{
+
+.flexible-container {
    width: 100%;
 }
-#card-01{
-   background-color:#abe2e955 ;
+
+#card-01 {
+   background-color: hsla(187, 58%, 79%, 0.333);
+   padding: 15px 15px;
+   text-align: left;
+
 }
-#card-02{
+
+#card-02 {
    background-color: rgba(225, 174, 182, 0.464);
    margin-left: 15px;
    margin-right: 15px;
+   padding: 15px 15px;
 }
-#card-03{
-   background-color:rgba(239, 239, 161, 0.433);
-}
-#plan-section{
-   display: flex;
 
+#card-03 {
+   background-color: rgba(239, 239, 161, 0.433);
+   padding: 15px 15px;
+}
+
+#plan-section {
+   display: inline-flex;
+}
+
+.extra-part {
+   display: flex;
+   margin: 50px;
+
+}
+
+.img {
+   display: flex;
+   margin-left: 40px;
+   
 }
