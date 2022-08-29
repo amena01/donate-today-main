@@ -39,9 +39,9 @@ body {
 
 }
 .flex-clr{
-   color: brown;
-   border: 4px;
-   border-color: brown;
+   color:brown;
+   border: 4px solid brown;
+   background-color: rgba(231, 95, 95, 0.35);
 }
 .flexible-container{
    width: 100%;
