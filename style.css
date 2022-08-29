@@ -11,7 +11,9 @@ body {
    background-attachment: fixed;
    text-align: center;
 }
-
+.sec-02{
+   margin: 5px 20px;
+}
 .header {
    font-size: 30px;
 }
@@ -46,4 +48,17 @@ body {
 }
 .flexible-container{
    width: 100%;
+}
+#card-01{
+   background-color:#abe2e955 ;
+}
+#card-02{
+   background-color: rgba(225, 174, 182, 0.464);
+}
+#card-03{
+   background-color:rgba(239, 239, 161, 0.433);
+}
+#plan-section{
+   display: flex;
+
 }
