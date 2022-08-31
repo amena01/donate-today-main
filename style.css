@@ -89,5 +89,19 @@ body {
 .img {
    display: flex;
    margin-left: 40px;
-   
+
+}
+
+.last-sec {
+   margin: 50px 100px 0 100px;
+}
+
+.last-part {
+   background-color: rgba(230, 230, 139, 0.564);
+   background-size 500px 300px;
+   display:flex;
+}
+
+.email{
+   gcolor       : rgb(76, 64, 64);
 }
