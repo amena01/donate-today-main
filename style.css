@@ -81,9 +81,13 @@ body {
 }
 
 .extra-part {
-   display: flex;
-   margin: 50px;
+   display: inline-flexbox;
+   margin: 5%;
+}
 
+.extra-part img {
+   width: 50%;
+   height: 50%;
 }
 
 .img {
@@ -99,9 +103,24 @@ body {
 .last-part {
    background-color: rgba(230, 230, 139, 0.564);
    background-size 500px 300px;
-   display:flex;
+   display: flex;
 }
 
-.email{
-   gcolor       : rgb(76, 64, 64);
+.email {
+   background-color: rgb(76, 64, 64);
+}
+
+footer {
+   background-color: black;
+   text-align: center;
+   padding: 14px;
+}
+
+.footer-clr {
+   color: rgb(231, 93, 93);
+   font-size: 25px;
+}
+
+footer h4 {
+   color: white;
 }
